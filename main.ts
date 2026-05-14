@@ -1,23 +1,26 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
+    
     num += 1
     if (num == 10) {
         num = 1
     }
+    
     basic.showNumber(num)
 })
-input.onButtonPressed(Button.AB, function () {
+input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
+    
     pls = num + num1
     basic.showNumber(pls)
 })
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
+    
     num1 += 1
     if (num1 == 10) {
         num1 = 1
     }
+    
     basic.showNumber(num1)
 })
 let pls = 0
-let num1 = 0
-let num = 0
-num = 1
-num1 = 1
+let num = 1
+let num1 = 1
