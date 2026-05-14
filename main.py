@@ -21,6 +21,7 @@ def on_button_pressed_b():
 input.on_button_pressed(Button.B, on_button_pressed_b)
 
 pls = 0
-
+num1 = 0
+num = 0
 num = 1
 num1 = 1

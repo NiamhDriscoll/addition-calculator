@@ -22,5 +22,7 @@ input.onButtonPressed(Button.B, function on_button_pressed_b() {
     basic.showNumber(num1)
 })
 let pls = 0
-let num = 1
-let num1 = 1
+let num1 = 0
+let num = 0
+num = 1
+num1 = 1
